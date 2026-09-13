@@ -1,1 +1,1 @@
-The begining of the never ending..
+The beginning of the never ending..
