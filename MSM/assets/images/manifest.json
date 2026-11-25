@@ -1,0 +1,102 @@
+{
+  "chahat-tewani": {
+    "width": 1080,
+    "height": 1080,
+    "files": [
+      "chahat-tewani-720.webp",
+      "chahat-tewani-720.avif",
+      "chahat-tewani-1440.webp",
+      "chahat-tewani-1440.avif"
+    ]
+  },
+  "ayaan-zubair": {
+    "width": 1320,
+    "height": 1760,
+    "files": [
+      "ayaan-zubair-720.webp",
+      "ayaan-zubair-720.avif",
+      "ayaan-zubair-1440.webp",
+      "ayaan-zubair-1440.avif"
+    ]
+  },
+  "kanak-khare": {
+    "width": 1242,
+    "height": 1656,
+    "files": [
+      "kanak-khare-720.webp",
+      "kanak-khare-720.avif",
+      "kanak-khare-1440.webp",
+      "kanak-khare-1440.avif"
+    ]
+  },
+  "aishwarya-harishankar": {
+    "width": 1080,
+    "height": 1080,
+    "files": [
+      "aishwarya-harishankar-720.webp",
+      "aishwarya-harishankar-720.avif",
+      "aishwarya-harishankar-1440.webp",
+      "aishwarya-harishankar-1440.avif"
+    ]
+  },
+  "uddeshya-singh": {
+    "width": 1440,
+    "height": 1800,
+    "files": [
+      "uddeshya-singh-720.webp",
+      "uddeshya-singh-720.avif",
+      "uddeshya-singh-1440.webp",
+      "uddeshya-singh-1440.avif"
+    ]
+  },
+  "sonakshi-vats": {
+    "width": 1946,
+    "height": 2594,
+    "files": [
+      "sonakshi-vats-720.webp",
+      "sonakshi-vats-720.avif",
+      "sonakshi-vats-1440.webp",
+      "sonakshi-vats-1440.avif"
+    ]
+  },
+  "founder-mahesh": {
+    "width": 724,
+    "height": 1038,
+    "files": [
+      "founder-mahesh-720.webp",
+      "founder-mahesh-720.avif",
+      "founder-mahesh-1440.webp",
+      "founder-mahesh-1440.avif"
+    ]
+  },
+  "work-bellavita": {
+    "width": 550,
+    "height": 550,
+    "files": [
+      "work-bellavita-720.webp",
+      "work-bellavita-720.avif",
+      "work-bellavita-1440.webp",
+      "work-bellavita-1440.avif"
+    ]
+  },
+  "work-mars": {
+    "width": 1800,
+    "height": 1800,
+    "files": [
+      "work-mars-720.webp",
+      "work-mars-720.avif",
+      "work-mars-1440.webp",
+      "work-mars-1440.avif"
+    ]
+  },
+  "work-flipkart": {
+    "width": 1800,
+    "height": 2700,
+    "files": [
+      "work-flipkart-720.webp",
+      "work-flipkart-720.avif",
+      "work-flipkart-1440.webp",
+      "work-flipkart-1440.avif"
+    ]
+  }
+}

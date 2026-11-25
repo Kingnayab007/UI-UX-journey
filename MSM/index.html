@@ -1,0 +1,401 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MSM Entertainment | Influencer Marketing &amp; Creator Management</title>
+  <meta name="description" content="MSM Entertainment is an influencer marketing and creator management agency connecting brands with creators.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:title" content="MSM Entertainment | Influencer Marketing &amp; Creator Management">
+  <meta property="og:description" content="MSM Entertainment is an influencer marketing and creator management agency connecting brands with creators.">
+  <meta property="og:url" content="https://msm-e.com/">
+  <meta property="og:site_name" content="MSM Entertainment">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://msm-e.com/icon.png">
+  <meta property="og:image:width" content="1254">
+  <meta property="og:image:height" content="1254">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="MSM Entertainment">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="MSM Entertainment | Influencer Marketing &amp; Creator Management">
+  <meta name="twitter:description" content="MSM Entertainment is an influencer marketing and creator management agency connecting brands with creators.">
+  <meta name="twitter:image" content="https://msm-e.com/icon.png">
+  <link rel="shortcut icon" href="/assets/images/icon.png">
+  <link rel="icon" href="/assets/images/icon.png" type="image/png">
+  <link rel="apple-touch-icon" href="/assets/images/icon.png">
+  <link rel="canonical" href="https://msm-e.com/">
+
+  <!-- Fonts: self-hosted, font-display:swap. Preload only the two critical faces. -->
+  <link rel="preload" href="/assets/fonts/clash-display-700.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/satoshi-400.woff2" as="font" type="font/woff2" crossorigin>
+  <script>
+    document.documentElement.classList.add('js');
+    // If the main bundle fails, never leave the intro covering the page.
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        var i = document.querySelector('#intro');
+        if (i && !i.dataset.ready) i.classList.add('is-done');
+      }, 2500);
+    });
+  </script>
+  <link rel="stylesheet" href="/assets/css/site.min.css">
+
+  <!--
+    Pinned motion versions (vendored locally; no CDN dependency at runtime):
+      gsap          3.15.1   https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/gsap.min.js
+      ScrollTrigger 3.15.1   https://cdn.jsdelivr.net/npm/gsap@3.15.1/dist/ScrollTrigger.min.js
+      Lenis         1.3.28   https://cdn.jsdelivr.net/npm/lenis@1.3.28/dist/lenis.min.js
+    npm equivalents: npm i gsap@3.15.1 lenis@1.3.28
+    Unminified, fully commented sources live beside these builds (site.css / site.js).
+  -->
+  <script defer src="/assets/vendor/gsap.min.js"></script>
+  <script defer src="/assets/vendor/ScrollTrigger.min.js"></script>
+  <script defer src="/assets/vendor/lenis.min.js"></script>
+  <script defer src="/assets/js/site.min.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- Page-load intro: wordmark, then hero lines. Skippable (button / Esc), once per session. -->
+  <div class="intro" id="intro" role="dialog" aria-label="Introduction" aria-modal="false">
+    <span class="intro-mark">MSM ENTERTAINMENT</span>
+    <button class="intro-skip" type="button" aria-label="Skip introduction">Skip intro <span aria-hidden="true">↗</span></button>
+  </div>
+
+  <div class="grain" aria-hidden="true"></div>
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"><span>View</span></div>
+
+  <div class="site-shell">
+    <header class="navbar" id="site-header">
+      <div class="nav-inner">
+        <a class="brand" href="#home" aria-label="MSM Entertainment home" data-magnetic>
+          <span>MSM</span><span class="brand-sub">ENTERTAINMENT</span>
+        </a>
+        <nav class="desktop-nav" aria-label="Main navigation">
+          <a href="#home" data-nav="01" aria-current="true"><span class="nav-num" aria-hidden="true">01</span><span>Home</span></a>
+          <a href="#about" data-nav="02"><span class="nav-num" aria-hidden="true">02</span><span>About</span></a>
+          <a href="#services" data-nav="03"><span class="nav-num" aria-hidden="true">03</span><span>Services</span></a>
+          <a href="#creators" data-nav="04"><span class="nav-num" aria-hidden="true">04</span><span>Creators</span></a>
+          <a href="#work" data-nav="05"><span class="nav-num" aria-hidden="true">05</span><span>Work</span></a>
+          <a href="/updates" data-nav="06"><span class="nav-num" aria-hidden="true">06</span><span>Latest Updates</span></a>
+          <a href="#brands" data-nav="07"><span class="nav-num" aria-hidden="true">07</span><span>For Brands</span></a>
+          <a href="#join" data-nav="08"><span class="nav-num" aria-hidden="true">08</span><span>Join MSM</span></a>
+          <a href="#contact" data-nav="09"><span class="nav-num" aria-hidden="true">09</span><span>Contact</span></a>
+        </nav>
+        <button class="menu-button" type="button" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+      <div id="mobile-menu" class="mobile-menu" aria-hidden="true">
+        <a href="#home"><span>01</span>Home</a>
+        <a href="#about"><span>02</span>About</a>
+        <a href="#services"><span>03</span>Services</a>
+        <a href="#creators"><span>04</span>Creators</a>
+        <a href="#work"><span>05</span>Work</a>
+        <a href="/updates"><span>06</span>Latest Updates</a>
+        <a href="#brands"><span>07</span>For Brands</a>
+        <a href="#join"><span>08</span>Join MSM</a>
+        <a href="#contact"><span>09</span>Contact</a>
+      </div>
+    </header>
+
+    <!-- Numbered section indicator (01–09), mirrors the nav order. -->
+    <nav class="section-rail" aria-label="Section indicator">
+      <a href="#home" data-rail="01" aria-label="Home"><span>01</span></a>
+      <a href="#about" data-rail="02" aria-label="About"><span>02</span></a>
+      <a href="#services" data-rail="03" aria-label="Services"><span>03</span></a>
+      <a href="#creators" data-rail="04" aria-label="Creators"><span>04</span></a>
+      <a href="#work" data-rail="05" aria-label="Work"><span>05</span></a>
+      <a href="/updates" data-rail="06" aria-label="Latest Updates"><span>06</span></a>
+      <a href="#brands" data-rail="07" aria-label="For Brands"><span>07</span></a>
+      <a href="#join" data-rail="08" aria-label="Join MSM"><span>08</span></a>
+      <a href="#contact" data-rail="09" aria-label="Contact"><span>09</span></a>
+    </nav>
+
+    <main id="main">
+      <section class="hero" id="home" aria-labelledby="hero-title">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="hero-gridline hero-gridline-a" aria-hidden="true"></div>
+        <div class="hero-gridline hero-gridline-b" aria-hidden="true"></div>
+        <div class="hero-content page-pad">
+          <p class="hero-kicker hero-meta">Independent creator agency · India</p>
+          <h1 class="hero-wordmark" id="hero-title" aria-label="We connect brands with creators">
+            <span class="hero-line"><span>WE CONNECT</span></span>
+            <span class="hero-line outline"><span>BRANDS WITH</span></span>
+            <span class="hero-line"><span>CREATORS.</span></span>
+          </h1>
+          <div class="hero-bottom">
+            <p class="hero-support">MSM Entertainment connects brands with creators to build collaborations, campaigns and content that people notice.</p>
+            <div class="hero-actions">
+              <a class="button button-light" href="#brands" data-magnetic>Work with us <span aria-hidden="true">↗</span></a>
+              <a class="button button-ghost" href="#join" data-magnetic>Join as a creator <span aria-hidden="true">↘</span></a>
+            </div>
+            <div class="hero-scroll hero-meta" aria-hidden="true">
+              <span>Scroll to discover</span><span class="scroll-rule"></span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="about page-pad stack-card" id="about" aria-labelledby="about-title">
+        <div class="stack-bg" aria-hidden="true"></div>
+        <p class="section-index reveal">01 / ABOUT MSM</p>
+        <div class="about-layout">
+          <h2 class="display-title reveal" id="about-title">We make influence feel human.</h2>
+          <div class="about-copy reveal">
+            <p>MSM Entertainment is an influencer marketing and creator management agency connecting ambitious brands with the voices shaping culture.</p>
+            <p>From the first idea to the final post, we build thoughtful partnerships that are credible, creative and made to perform.</p>
+            <a href="#services" class="text-link">Explore our capabilities <span aria-hidden="true">↘</span></a>
+          </div>
+        </div>
+        <div class="stat-row reveal" aria-label="Agency highlights">
+          <div><strong data-count="360" data-suffix="°">360°</strong><span>Campaign thinking</span></div>
+          <div><strong data-count="6" data-pad="2">06</strong><span>Creator categories</span></div>
+          <div><strong data-count="1" data-pad="2">01</strong><span>Focused partner</span></div>
+        </div>
+      </section>
+
+      <section class="ticker marquee" aria-label="Agency capabilities">
+        <div class="marquee-track">
+          <div class="marquee-group"><span>STRATEGY × CREATORS × CULTURE × CAMPAIGNS × CONTENT ×&nbsp;</span></div>
+          <div class="marquee-group" aria-hidden="true"><span>STRATEGY × CREATORS × CULTURE × CAMPAIGNS × CONTENT ×&nbsp;</span></div>
+        </div>
+      </section>
+
+      <section class="services page-pad stack-card" id="services" aria-labelledby="services-title">
+        <div class="stack-bg" aria-hidden="true"></div>
+        <p class="section-index section-index-dark reveal">02 / WHAT WE DO</p>
+        <div class="section-heading-row">
+          <h2 class="display-title reveal" id="services-title">Built for the attention economy.</h2>
+          <p class="section-sidecopy reveal">We bring strategy, relationships and execution under one roof—so every collaboration feels considered from brief to report.</p>
+        </div>
+        <div class="service-grid" data-spotlight>
+          <article class="service-card"><div class="card-top"><span>01</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Influencer Marketing</h3><p>Creator-first campaigns shaped around your audience, goals and culture.</p></article>
+          <article class="service-card"><div class="card-top"><span>02</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Brand Collaborations</h3><p>Relevant partnerships that feel natural to creators and credible to communities.</p></article>
+          <article class="service-card"><div class="card-top"><span>03</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Creator Management</h3><p>Strategy, opportunities and day-to-day support built for long-term creator growth.</p></article>
+          <article class="service-card"><div class="card-top"><span>04</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>PR &amp; Product Campaigns</h3><p>High-impact product seeding and launch programs with clear creator direction.</p></article>
+          <article class="service-card"><div class="card-top"><span>05</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Social Media Campaigns</h3><p>Platform-native campaign ideas designed to start conversations and earn attention.</p></article>
+          <article class="service-card"><div class="card-top"><span>06</span><span class="card-arrow" aria-hidden="true">↗</span></div><h3>Content Strategy</h3><p>Creative systems that turn insight into memorable content across every touchpoint.</p></article>
+        </div>
+      </section>
+
+      <section class="creators page-pad stack-card" id="creators" aria-labelledby="creators-title">
+        <div class="stack-bg" aria-hidden="true"></div>
+        <p class="section-index reveal">03 / FEATURED CREATORS</p>
+        <div class="section-heading-row creators-heading">
+          <h2 class="display-title reveal" id="creators-title">Distinct voices. Real communities.</h2>
+          <p class="section-sidecopy reveal">A considered network across fashion, beauty, lifestyle, travel, fitness and entertainment.</p>
+        </div>
+        <div class="creator-grid">
+          <article class="creator-card">
+            <div class="creator-image" data-cursor="view">
+              <div class="creator-media"><picture>
+                <source type="image/avif" srcset="/assets/images/chahat-tewani-720.avif 720w, /assets/images/chahat-tewani-1440.avif 1080w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <source type="image/webp" srcset="/assets/images/chahat-tewani-720.webp 720w, /assets/images/chahat-tewani-1440.webp 1080w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <img src="/assets/images/chahat-tewani-720.webp" width="1080" height="1080" alt="Chahat Tewani, Actress / Creator creator" loading="lazy" decoding="async">
+              </picture></div>
+            </div>
+            <div class="creator-info"><div><h3>Chahat Tewani</h3><p>Actress / Creator</p></div><div class="creator-meta"><strong data-count="1800000" data-scale="1000000" data-decimals="1" data-suffix="M">1.8M</strong><a href="https://www.instagram.com/iamchahattewani/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div>
+          </article>
+          <article class="creator-card">
+            <div class="creator-image" data-cursor="view">
+              <div class="creator-media"><picture>
+                <source type="image/avif" srcset="/assets/images/ayaan-zubair-720.avif 720w, /assets/images/ayaan-zubair-1440.avif 1320w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <source type="image/webp" srcset="/assets/images/ayaan-zubair-720.webp 720w, /assets/images/ayaan-zubair-1440.webp 1320w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <img src="/assets/images/ayaan-zubair-720.webp" width="1320" height="1760" alt="Ayaan Zubair, Actor / Lifestyle creator" loading="lazy" decoding="async">
+              </picture></div>
+            </div>
+            <div class="creator-info"><div><h3>Ayaan Zubair</h3><p>Actor / Lifestyle</p></div><div class="creator-meta"><strong data-count="3800000" data-scale="1000000" data-decimals="1" data-suffix="M">3.8M</strong><a href="https://www.instagram.com/ayaanzubair_12/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div>
+          </article>
+          <article class="creator-card">
+            <div class="creator-image" data-cursor="view">
+              <div class="creator-media"><picture>
+                <source type="image/avif" srcset="/assets/images/kanak-khare-720.avif 720w, /assets/images/kanak-khare-1440.avif 1242w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <source type="image/webp" srcset="/assets/images/kanak-khare-720.webp 720w, /assets/images/kanak-khare-1440.webp 1242w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <img src="/assets/images/kanak-khare-720.webp" width="1242" height="1656" alt="Kanak Khare, Fashion / Lifestyle / Creator creator" loading="lazy" decoding="async">
+              </picture></div>
+            </div>
+            <div class="creator-info"><div><h3>Kanak Khare</h3><p>Fashion / Lifestyle / Creator</p></div><div class="creator-meta"><strong data-count="98800" data-scale="1000" data-decimals="1" data-suffix="K">98.8K</strong><a href="https://www.instagram.com/kre.kank/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div>
+          </article>
+          <article class="creator-card">
+            <div class="creator-image" data-cursor="view">
+              <div class="creator-media"><picture>
+                <source type="image/avif" srcset="/assets/images/aishwarya-harishankar-720.avif 720w, /assets/images/aishwarya-harishankar-1440.avif 1080w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <source type="image/webp" srcset="/assets/images/aishwarya-harishankar-720.webp 720w, /assets/images/aishwarya-harishankar-1440.webp 1080w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <img src="/assets/images/aishwarya-harishankar-720.webp" width="1080" height="1080" alt="Aishwarya Harishankar, Fashion / Beauty / Lifestyle creator" loading="lazy" decoding="async">
+              </picture></div>
+            </div>
+            <div class="creator-info"><div><h3>Aishwarya Harishankar</h3><p>Fashion / Beauty / Lifestyle</p></div><div class="creator-meta"><strong data-count="1400000" data-scale="1000000" data-decimals="1" data-suffix="M">1.4M</strong><a href="https://www.instagram.com/aishwaryaharishankar/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div>
+          </article>
+          <article class="creator-card">
+            <div class="creator-image" data-cursor="view">
+              <div class="creator-media"><picture>
+                <source type="image/avif" srcset="/assets/images/uddeshya-singh-720.avif 720w, /assets/images/uddeshya-singh-1440.avif 1440w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <source type="image/webp" srcset="/assets/images/uddeshya-singh-720.webp 720w, /assets/images/uddeshya-singh-1440.webp 1440w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <img src="/assets/images/uddeshya-singh-720.webp" width="1440" height="1800" alt="Uddeshya Singh Sisodia, Digital Creator / Lifestyle creator" loading="lazy" decoding="async">
+              </picture></div>
+            </div>
+            <div class="creator-info"><div><h3>Uddeshya Singh Sisodia</h3><p>Digital Creator / Lifestyle</p></div><div class="creator-meta"><strong data-count="94100" data-scale="1000" data-decimals="1" data-suffix="K">94.1K</strong><a href="https://www.instagram.com/jeff_star0j/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div>
+          </article>
+          <article class="creator-card">
+            <div class="creator-image" data-cursor="view">
+              <div class="creator-media"><picture>
+                <source type="image/avif" srcset="/assets/images/sonakshi-vats-720.avif 720w, /assets/images/sonakshi-vats-1440.avif 1440w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <source type="image/webp" srcset="/assets/images/sonakshi-vats-720.webp 720w, /assets/images/sonakshi-vats-1440.webp 1440w" sizes="(max-width:760px) 92vw, (max-width:1080px) 45vw, 30vw">
+                <img src="/assets/images/sonakshi-vats-720.webp" width="1946" height="2594" alt="Sonakshi Vats, Fashion / Makeup / Lifestyle creator" loading="lazy" decoding="async">
+              </picture></div>
+            </div>
+            <div class="creator-info"><div><h3>Sonakshi Vats</h3><p>Fashion / Makeup / Lifestyle</p></div><div class="creator-meta"><strong data-count="81500" data-scale="1000" data-decimals="1" data-suffix="K">81.5K</strong><a href="https://www.instagram.com/sonakshivats__/" target="_blank" rel="noopener noreferrer">Instagram ↗</a></div></div>
+          </article>
+        </div>
+        <div class="creator-network reveal">
+          <div class="creator-network-count"><strong data-count="50" data-suffix="+">50+</strong><span>CREATORS</span></div>
+          <div class="creator-network-copy"><span>OUR NETWORK</span><p>The creators above are just a glimpse of MSM Entertainment's growing creator network across India.</p></div>
+        </div>
+        <a href="#join" class="wide-link reveal"><span>Want to join this roster?</span><strong>Become an MSM creator ↗</strong></a>
+      </section>
+
+      <section class="work page-pad" id="work" aria-labelledby="work-title">
+        <p class="section-index section-index-dark reveal">04 / SELECTED WORK</p>
+        <div class="work-intro">
+          <h2 class="display-title reveal" id="work-title">Work that earns attention.</h2>
+          <p class="section-sidecopy reveal">Ideas, creators and culture—brought together with purpose.</p>
+        </div>
+        <div class="work-list">
+          <article class="case-study">
+            <div class="case-image" data-cursor="view"><div class="case-media"><picture>
+              <source type="image/avif" srcset="/assets/images/work-bellavita-720.avif 550w" sizes="(max-width:760px) 92vw, 60vw">
+              <source type="image/webp" srcset="/assets/images/work-bellavita-720.webp 550w" sizes="(max-width:760px) 92vw, 60vw">
+              <img src="/assets/images/work-bellavita-720.webp" width="550" height="550" alt="Bellavita campaign editorial" loading="lazy" decoding="async">
+            </picture></div></div>
+            <div class="case-copy">
+              <p class="case-number">01 / CASE STUDY</p>
+              <p class="case-brand">Bellavita</p>
+              <h3 data-words>Fragrance, made personal.</h3>
+              <dl><div><dt>Creators</dt><dd>Beauty + Lifestyle creators</dd></div><div><dt>Outcome</dt><dd>Creator content delivered in 48 hours</dd></div></dl>
+              <a href="#contact" class="text-link text-link-light">View campaign <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="case-study case-reverse">
+            <div class="case-image" data-cursor="view"><div class="case-media"><picture>
+              <source type="image/avif" srcset="/assets/images/work-mars-720.avif 720w, /assets/images/work-mars-1440.avif 1440w" sizes="(max-width:760px) 92vw, 60vw">
+              <source type="image/webp" srcset="/assets/images/work-mars-720.webp 720w, /assets/images/work-mars-1440.webp 1440w" sizes="(max-width:760px) 92vw, 60vw">
+              <img src="/assets/images/work-mars-720.webp" width="1800" height="1800" alt="MARS Cosmetics campaign editorial" loading="lazy" decoding="async">
+            </picture></div></div>
+            <div class="case-copy">
+              <p class="case-number">02 / CASE STUDY</p>
+              <p class="case-brand">MARS Cosmetics</p>
+              <h3 data-words>Colour that moves with culture.</h3>
+              <dl><div><dt>Creators</dt><dd>Beauty + Fashion creators</dd></div><div><dt>Outcome</dt><dd>Product-led reels across key niches</dd></div></dl>
+              <a href="#contact" class="text-link text-link-light">View campaign <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+          <article class="case-study">
+            <div class="case-image" data-cursor="view"><div class="case-media"><picture>
+              <source type="image/avif" srcset="/assets/images/work-flipkart-720.avif 720w, /assets/images/work-flipkart-1440.avif 1440w" sizes="(max-width:760px) 92vw, 60vw">
+              <source type="image/webp" srcset="/assets/images/work-flipkart-720.webp 720w, /assets/images/work-flipkart-1440.webp 1440w" sizes="(max-width:760px) 92vw, 60vw">
+              <img src="/assets/images/work-flipkart-720.webp" width="1800" height="2700" alt="Flipkart GlamUp campaign editorial" loading="lazy" decoding="async">
+            </picture></div></div>
+            <div class="case-copy">
+              <p class="case-number">03 / CASE STUDY</p>
+              <p class="case-brand">Flipkart GlamUp</p>
+              <h3 data-words>Creators, together in Delhi.</h3>
+              <dl><div><dt>Creators</dt><dd>Fashion + Entertainment creators</dd></div><div><dt>Outcome</dt><dd>Targeted creator registrations</dd></div></dl>
+              <a href="#contact" class="text-link text-link-light">View campaign <span aria-hidden="true">↗</span></a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="brand-strip marquee" aria-label="Brands we've worked with">
+        <p class="brand-strip-label">BRANDS WE'VE WORKED WITH</p>
+        <div class="logo-marquee">
+          <div class="marquee-track logo-track">
+            <div class="marquee-group"><span>BELLAVITA</span><span>MAMAEARTH</span><span>MARS COSMETICS</span><span>SEOUL SKIN</span><span>FLIPKART</span><span>MYNTRA</span><span>SAMSUNG</span><span>H&amp;M</span></div>
+            <div class="marquee-group" aria-hidden="true"><span>BELLAVITA</span><span>MAMAEARTH</span><span>MARS COSMETICS</span><span>SEOUL SKIN</span><span>FLIPKART</span><span>MYNTRA</span><span>SAMSUNG</span><span>H&amp;M</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="brand-enquiry page-pad" id="brands" aria-labelledby="brands-title">
+        <p class="section-index reveal">05 / FOR BRANDS</p>
+        <div class="form-layout">
+          <div class="form-intro reveal">
+            <h2 id="brands-title">Find the right creators for your next campaign.</h2>
+            <p>Tell us what you are building. We'll shape the right creator mix, idea and rollout.</p>
+            <a class="button button-dark" href="#brand-form" data-magnetic>Start a campaign <span aria-hidden="true">↘</span></a>
+          </div>
+          <form class="editorial-form reveal" id="brand-form">
+            <label class="field"><span class="field-label">Name / Company</span><input required placeholder="Your name or brand" name="company" autocomplete="organization"></label>
+            <label class="field"><span class="field-label">Work email</span><input type="email" required placeholder="name@company.com" name="email" autocomplete="email"></label>
+            <label class="field select-field"><span class="field-label">Campaign type</span><select name="campaign" required><option value="" disabled selected>Select a service</option><option>Influencer campaign</option><option>Product launch / PR</option><option>Brand collaboration</option><option>Content strategy</option></select></label>
+            <label class="field select-field"><span class="field-label">Budget range</span><select name="budget" required><option value="" disabled selected>Select a range</option><option>₹50K – ₹1L</option><option>₹1L – ₹5L</option><option>₹5L – ₹10L</option><option>₹10L+</option></select></label>
+            <label class="field field-wide"><span class="field-label">Tell us about the brief</span><textarea name="brief" required rows="4" placeholder="Goals, timeline, audience and anything else we should know"></textarea></label>
+            <button class="form-submit" type="submit">Send enquiry <span aria-hidden="true">↗</span></button>
+            <p class="form-status" aria-live="polite">We usually respond within 1–2 business days.</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="join page-pad" id="join" aria-labelledby="join-title">
+        <p class="section-index section-index-dark reveal">06 / JOIN MSM</p>
+        <div class="join-heading reveal"><p>FOR CREATORS</p><h2 id="join-title">Create.<br>Grow.<br><span>Get Discovered.</span></h2></div>
+        <form class="creator-form reveal" id="creator-form">
+          <label class="field"><span class="field-label">Name</span><input required placeholder="Full name" name="name" autocomplete="name"></label>
+          <label class="field"><span class="field-label">Instagram username</span><input required placeholder="@username" name="instagram"></label>
+          <label class="field"><span class="field-label">Follower count</span><input required inputmode="numeric" placeholder="e.g. 50,000" name="followers"></label>
+          <label class="field select-field"><span class="field-label">Category / Niche</span><select name="niche" required><option value="" disabled selected>Select your niche</option><option>Fashion</option><option>Beauty</option><option>Lifestyle</option><option>Travel</option><option>Fitness</option><option>Entertainment</option><option>Other</option></select></label>
+          <label class="field"><span class="field-label">City</span><input required placeholder="Your city" name="city" autocomplete="address-level2"></label>
+          <label class="field"><span class="field-label">Email</span><input type="email" required placeholder="you@email.com" name="email" autocomplete="email"></label>
+          <label class="field"><span class="field-label">Phone</span><input type="tel" required placeholder="+91 00000 00000" name="phone" autocomplete="tel"></label>
+          <label class="field"><span class="field-label">Portfolio / Social link</span><input type="url" required placeholder="https://" name="portfolio"></label>
+          <button class="button button-light creator-submit" type="submit" data-magnetic>Apply to join <span aria-hidden="true">↗</span></button>
+          <p class="form-status form-status-dark" aria-live="polite">Every application is reviewed by the MSM team.</p>
+        </form>
+      </section>
+
+      <section class="founder page-pad" id="founder" aria-labelledby="founder-title">
+        <p class="section-index reveal">07 / FOUNDER</p>
+        <div class="founder-layout">
+          <div class="founder-portrait reveal"><picture>
+            <source type="image/avif" srcset="/assets/images/founder-mahesh-720.avif 724w">
+            <source type="image/webp" srcset="/assets/images/founder-mahesh-720.webp 724w">
+            <img src="/assets/images/founder-mahesh-720.webp" width="724" height="1038" alt="Mahesh Kumar — Founder &amp; Creative Lead, MSM Entertainment" class="founder-photo" loading="lazy" decoding="async">
+          </picture></div>
+          <div class="founder-copy reveal">
+            <p class="eyebrow">FOUNDER &amp; CREATIVE LEAD</p>
+            <h2 id="founder-title">Mahesh Kumar</h2>
+            <p>Mahesh founded MSM Entertainment with a simple belief: the strongest brand partnerships begin with the right human connection. He leads the agency's creator relationships, campaign vision and growth.</p>
+            <blockquote>“We are here to build work people actually want to watch.”</blockquote>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact page-pad" id="contact" aria-labelledby="contact-title">
+        <div class="contact-glow" aria-hidden="true"></div>
+        <div class="contact-top reveal"><span>08 / CONTACT</span><p>Mumbai · India<br>Working everywhere</p></div>
+        <h2 class="contact-title reveal" id="contact-title">LET'S CREATE SOMETHING <span>WORTH TALKING ABOUT.</span></h2>
+        <div class="contact-grid reveal">
+          <a href="#brands"><span>Brand enquiry</span><strong class="fill-link"><span class="fill-base">Start a campaign ↗</span><span class="fill-over" aria-hidden="true">Start a campaign ↗</span></strong></a>
+          <a href="#join"><span>Creator enquiry</span><strong class="fill-link"><span class="fill-base">Join MSM ↗</span><span class="fill-over" aria-hidden="true">Join MSM ↗</span></strong></a>
+          <a href="mailto:business@msm-e.com"><span>General enquiry</span><strong class="fill-link"><span class="fill-base">business@msm-e.com ↗</span><span class="fill-over" aria-hidden="true">business@msm-e.com ↗</span></strong></a>
+        </div>
+        <div class="social-row reveal"><span>FOLLOW THE WORK</span><div><a href="https://www.instagram.com/" target="_blank" rel="noreferrer">Instagram ↗</a><a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="https://www.youtube.com/" target="_blank" rel="noreferrer">YouTube ↗</a></div></div>
+      </section>
+    </main>
+
+    <footer class="footer page-pad">
+      <div class="footer-main">
+        <div><strong>MSM ENTERTAINMENT</strong><p>Connecting Brands × Creators</p></div>
+        <nav aria-label="Footer navigation"><a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a><a href="#creators">Creators</a><a href="#work">Work</a><a href="/updates">Latest Updates</a></nav>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 MSM Entertainment. All Rights Reserved.</span>
+        <div><a href="/privacy">Privacy Policy</a><a href="/terms">Terms &amp; Conditions</a></div>
+        <a href="#home">Back to top ↑</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
